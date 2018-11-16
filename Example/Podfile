@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GTCategories_Example' do
+  pod 'GTCategories', :path => '../'
+
+  target 'GTCategories_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
