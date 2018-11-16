@@ -1,0 +1,102 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GTCategories (0.1.0):
+    - GTCategories/Foundation (= 0.1.0)
+    - GTCategories/UIKit (= 0.1.0)
+  - GTCategories/Foundation (0.1.0):
+    - GTCategories/Foundation/NSArray (= 0.1.0)
+    - GTCategories/Foundation/NSBundle (= 0.1.0)
+    - GTCategories/Foundation/NSData (= 0.1.0)
+    - GTCategories/Foundation/NSDate (= 0.1.0)
+    - GTCategories/Foundation/NSDateFormatter (= 0.1.0)
+    - GTCategories/Foundation/NSDictionary (= 0.1.0)
+    - GTCategories/Foundation/NSException (= 0.1.0)
+    - GTCategories/Foundation/NSFileManager (= 0.1.0)
+    - GTCategories/Foundation/NSIndexPath (= 0.1.0)
+    - GTCategories/Foundation/NSInvocation (= 0.1.0)
+    - GTCategories/Foundation/NSNotificationCenter (= 0.1.0)
+    - GTCategories/Foundation/NSNumber (= 0.1.0)
+    - GTCategories/Foundation/NSObject (= 0.1.0)
+    - GTCategories/Foundation/NSRunLoop (= 0.1.0)
+    - GTCategories/Foundation/NSSet (= 0.1.0)
+    - GTCategories/Foundation/NSString (= 0.1.0)
+    - GTCategories/Foundation/NSTimer (= 0.1.0)
+    - GTCategories/Foundation/NSURL (= 0.1.0)
+    - GTCategories/Foundation/NSURLConnection (= 0.1.0)
+    - GTCategories/Foundation/NSUserDefaults (= 0.1.0)
+  - GTCategories/Foundation/NSArray (0.1.0)
+  - GTCategories/Foundation/NSBundle (0.1.0)
+  - GTCategories/Foundation/NSData (0.1.0)
+  - GTCategories/Foundation/NSDate (0.1.0)
+  - GTCategories/Foundation/NSDateFormatter (0.1.0)
+  - GTCategories/Foundation/NSDictionary (0.1.0)
+  - GTCategories/Foundation/NSException (0.1.0)
+  - GTCategories/Foundation/NSFileManager (0.1.0)
+  - GTCategories/Foundation/NSIndexPath (0.1.0)
+  - GTCategories/Foundation/NSInvocation (0.1.0)
+  - GTCategories/Foundation/NSNotificationCenter (0.1.0)
+  - GTCategories/Foundation/NSNumber (0.1.0)
+  - GTCategories/Foundation/NSObject (0.1.0)
+  - GTCategories/Foundation/NSRunLoop (0.1.0)
+  - GTCategories/Foundation/NSSet (0.1.0)
+  - GTCategories/Foundation/NSString (0.1.0):
+    - GTCategories/Foundation/NSData
+  - GTCategories/Foundation/NSTimer (0.1.0)
+  - GTCategories/Foundation/NSURL (0.1.0)
+  - GTCategories/Foundation/NSURLConnection (0.1.0)
+  - GTCategories/Foundation/NSUserDefaults (0.1.0)
+  - GTCategories/UIKit (0.1.0):
+    - GTCategories/UIKit/UIApplication (= 0.1.0)
+    - GTCategories/UIKit/UIColor (= 0.1.0)
+    - GTCategories/UIKit/UIControl (= 0.1.0)
+    - GTCategories/UIKit/UIDevice (= 0.1.0)
+    - GTCategories/UIKit/UIFont (= 0.1.0)
+    - GTCategories/UIKit/UIImage (= 0.1.0)
+    - GTCategories/UIKit/UIResponder (= 0.1.0)
+    - GTCategories/UIKit/UIScreen (= 0.1.0)
+    - GTCategories/UIKit/UIScrollView (= 0.1.0)
+    - GTCategories/UIKit/UISearchBar (= 0.1.0)
+    - GTCategories/UIKit/UISplitViewController (= 0.1.0)
+    - GTCategories/UIKit/UITableViewCell (= 0.1.0)
+    - GTCategories/UIKit/UIView (= 0.1.0)
+    - GTCategories/UIKit/UIViewController (= 0.1.0)
+    - GTCategories/UIKit/UIWindow (= 0.1.0)
+  - GTCategories/UIKit/UIApplication (0.1.0)
+  - GTCategories/UIKit/UIColor (0.1.0)
+  - GTCategories/UIKit/UIControl (0.1.0)
+  - GTCategories/UIKit/UIDevice (0.1.0)
+  - GTCategories/UIKit/UIFont (0.1.0)
+  - GTCategories/UIKit/UIImage (0.1.0)
+  - GTCategories/UIKit/UIResponder (0.1.0)
+  - GTCategories/UIKit/UIScreen (0.1.0)
+  - GTCategories/UIKit/UIScrollView (0.1.0)
+  - GTCategories/UIKit/UISearchBar (0.1.0)
+  - GTCategories/UIKit/UISplitViewController (0.1.0)
+  - GTCategories/UIKit/UITableViewCell (0.1.0)
+  - GTCategories/UIKit/UIView (0.1.0)
+  - GTCategories/UIKit/UIViewController (0.1.0)
+  - GTCategories/UIKit/UIWindow (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GTCategories (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GTCategories:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GTCategories: 76dfb99f90fc4e62b71aa6954e2483def8c23529
+
+PODFILE CHECKSUM: 26b0f34c05a1e887c520597025c480cd446b8d44
+
+COCOAPODS: 1.5.3
