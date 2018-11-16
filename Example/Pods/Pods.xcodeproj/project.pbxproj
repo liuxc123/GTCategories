@@ -11,6 +11,16 @@
 		0233D8B77B1E2B8F28011457CA31985D /* NSObject+GTBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B3289D485DC3E6CA2ED2F879FD626 /* NSObject+GTBundle.m */; };
 		03D95C1F9CE57F164A026C93D31D0E8F /* NSData+GTBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5868D6CC48EC1796B9FDD77CA73D0 /* NSData+GTBase64.m */; };
 		03E7F1E9816223D2CFB1B0341EACBAA4 /* UISplitViewController+GTQuickAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE0FD4740DB14E923FA75879426F59E /* UISplitViewController+GTQuickAccess.m */; };
+		04465B46219ED88000177073 /* CATransaction+GTAnimateWithDuration.h in Headers */ = {isa = PBXBuildFile; fileRef = 04465B44219ED88000177073 /* CATransaction+GTAnimateWithDuration.h */; };
+		04465B47219ED88000177073 /* CATransaction+GTAnimateWithDuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 04465B45219ED88000177073 /* CATransaction+GTAnimateWithDuration.m */; };
+		04465B4A219ED8F600177073 /* CAShapeLayer+GTUIBezierPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 04465B48219ED8F600177073 /* CAShapeLayer+GTUIBezierPath.h */; };
+		04465B4B219ED8F600177073 /* CAShapeLayer+GTUIBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 04465B49219ED8F600177073 /* CAShapeLayer+GTUIBezierPath.m */; };
+		04465B4E219ED95700177073 /* CAAnimation+GTEasingEquations.h in Headers */ = {isa = PBXBuildFile; fileRef = 04465B4C219ED95700177073 /* CAAnimation+GTEasingEquations.h */; };
+		04465B4F219ED95700177073 /* CAAnimation+GTEasingEquations.m in Sources */ = {isa = PBXBuildFile; fileRef = 04465B4D219ED95700177073 /* CAAnimation+GTEasingEquations.m */; };
+		04465B52219ED9D100177073 /* CAMediaTimingFunction+GTAdditionalEquations.h in Headers */ = {isa = PBXBuildFile; fileRef = 04465B50219ED9D100177073 /* CAMediaTimingFunction+GTAdditionalEquations.h */; };
+		04465B53219ED9D100177073 /* CAMediaTimingFunction+GTAdditionalEquations.m in Sources */ = {isa = PBXBuildFile; fileRef = 04465B51219ED9D100177073 /* CAMediaTimingFunction+GTAdditionalEquations.m */; };
+		04465B56219EDA4700177073 /* CALayer+GTBorderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 04465B54219EDA4700177073 /* CALayer+GTBorderColor.h */; };
+		04465B57219EDA4700177073 /* CALayer+GTBorderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04465B55219EDA4700177073 /* CALayer+GTBorderColor.m */; };
 		046261B3B11C3A20215352B374B26012 /* Pods-GTCategories_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A90DD18FCF10E741E5696290185A5DB /* Pods-GTCategories_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04A358A1E1AB4362DF60DC82DE000C28 /* NSString+GTDictionaryValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4346C770E684745029BA3D3239FAC428 /* NSString+GTDictionaryValue.m */; };
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -320,15 +330,26 @@
 
 /* Begin PBXFileReference section */
 		000362374EFAE836602A50C187CE6A90 /* UIImage+GTResize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GTResize.m"; path = "GTCategories/UIKit/UIImage/UIImage+GTResize.m"; sourceTree = "<group>"; };
-		005A892A6B09AF3ADDD9DE5747F8559A /* GTCategories.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GTCategories.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		005A892A6B09AF3ADDD9DE5747F8559A /* GTCategories.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GTCategories.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		01A85EC7157B10179D408F9340F87509 /* UIViewController+GTBlockSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+GTBlockSegue.h"; path = "GTCategories/UIKit/UIViewController/UIViewController+GTBlockSegue.h"; sourceTree = "<group>"; };
 		01B41A1A00B75BE5AC58B8564AA60A27 /* NSString+GTSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+GTSize.m"; path = "GTCategories/Foundation/NSString/NSString+GTSize.m"; sourceTree = "<group>"; };
 		030B1DA318135EE84F71540CADAC0584 /* UIResponder+GTChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+GTChain.h"; path = "GTCategories/UIKit/UIResponder/UIResponder+GTChain.h"; sourceTree = "<group>"; };
 		031F6CF48EB15D3FBEC3C4FDA57C7DC6 /* NSString+GTUUID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+GTUUID.m"; path = "GTCategories/Foundation/NSString/NSString+GTUUID.m"; sourceTree = "<group>"; };
 		03DCD569030C3A8B044C9527432667C8 /* NSDictionary+GTURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+GTURL.m"; path = "GTCategories/Foundation/NSDictionary/NSDictionary+GTURL.m"; sourceTree = "<group>"; };
+		04465B43219ED7D800177073 /* GTQuartzCoreHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GTQuartzCoreHeader.h; path = GTCategories/QuartzCore/GTQuartzCoreHeader.h; sourceTree = "<group>"; };
+		04465B44219ED88000177073 /* CATransaction+GTAnimateWithDuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CATransaction+GTAnimateWithDuration.h"; path = "GTCategories/QuartzCore/CATransaction/CATransaction+GTAnimateWithDuration.h"; sourceTree = "<group>"; };
+		04465B45219ED88000177073 /* CATransaction+GTAnimateWithDuration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CATransaction+GTAnimateWithDuration.m"; path = "GTCategories/QuartzCore/CATransaction/CATransaction+GTAnimateWithDuration.m"; sourceTree = "<group>"; };
+		04465B48219ED8F600177073 /* CAShapeLayer+GTUIBezierPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CAShapeLayer+GTUIBezierPath.h"; path = "GTCategories/QuartzCore/CAShapeLayer/CAShapeLayer+GTUIBezierPath.h"; sourceTree = "<group>"; };
+		04465B49219ED8F600177073 /* CAShapeLayer+GTUIBezierPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CAShapeLayer+GTUIBezierPath.m"; path = "GTCategories/QuartzCore/CAShapeLayer/CAShapeLayer+GTUIBezierPath.m"; sourceTree = "<group>"; };
+		04465B4C219ED95700177073 /* CAAnimation+GTEasingEquations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+GTEasingEquations.h"; path = "GTCategories/QuartzCore/CAAnimation/CAAnimation+GTEasingEquations.h"; sourceTree = "<group>"; };
+		04465B4D219ED95700177073 /* CAAnimation+GTEasingEquations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+GTEasingEquations.m"; path = "GTCategories/QuartzCore/CAAnimation/CAAnimation+GTEasingEquations.m"; sourceTree = "<group>"; };
+		04465B50219ED9D100177073 /* CAMediaTimingFunction+GTAdditionalEquations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CAMediaTimingFunction+GTAdditionalEquations.h"; path = "GTCategories/QuartzCore/CAMediaTimingFunction/CAMediaTimingFunction+GTAdditionalEquations.h"; sourceTree = "<group>"; };
+		04465B51219ED9D100177073 /* CAMediaTimingFunction+GTAdditionalEquations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CAMediaTimingFunction+GTAdditionalEquations.m"; path = "GTCategories/QuartzCore/CAMediaTimingFunction/CAMediaTimingFunction+GTAdditionalEquations.m"; sourceTree = "<group>"; };
+		04465B54219EDA4700177073 /* CALayer+GTBorderColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CALayer+GTBorderColor.h"; path = "GTCategories/QuartzCore/CALayer/CALayer+GTBorderColor.h"; sourceTree = "<group>"; };
+		04465B55219EDA4700177073 /* CALayer+GTBorderColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CALayer+GTBorderColor.m"; path = "GTCategories/QuartzCore/CALayer/CALayer+GTBorderColor.m"; sourceTree = "<group>"; };
 		04BAAF84DE0BC5E242784A3321F88271 /* UIImage+GTResize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GTResize.h"; path = "GTCategories/UIKit/UIImage/UIImage+GTResize.h"; sourceTree = "<group>"; };
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		059949CCDEDA02229C9BBFCA406C0826 /* Pods_GTCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTCategories_Tests.framework; path = "Pods-GTCategories_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		059949CCDEDA02229C9BBFCA406C0826 /* Pods_GTCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTCategories_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		067B97F2D3FD01B09F164DBB785F7A72 /* NSData+GTAPNSToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+GTAPNSToken.h"; path = "GTCategories/Foundation/NSData/NSData+GTAPNSToken.h"; sourceTree = "<group>"; };
 		0717B972A8C79FD014A31E02B7B8CB8E /* NSObject+GTAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+GTAlert.m"; path = "GTCategories/Foundation/NSObject/NSObject+GTAlert.m"; sourceTree = "<group>"; };
 		07E37FE8FD5502468F10415EDBD2051B /* NSDecimalNumber+GTAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDecimalNumber+GTAddition.h"; path = "GTCategories/Foundation/NSNumber/NSDecimalNumber+GTAddition.h"; sourceTree = "<group>"; };
@@ -344,7 +365,7 @@
 		0D5F559E8F0B7499EE9D9075180FE68B /* Pods-GTCategories_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTCategories_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0E4777B74566A9AD889CE4ED0FF21EBF /* NSDate+GTFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+GTFormatter.h"; path = "GTCategories/Foundation/NSDate/NSDate+GTFormatter.h"; sourceTree = "<group>"; };
 		0E4EBDBF2331A8860F2D4357298C4F90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FC8F1BD3498F9680BFE43E2E08D36F8 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC8F1BD3498F9680BFE43E2E08D36F8 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1021715CCD17DFDB8106C47AD37FEE05 /* NSSet+GTBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+GTBlocks.m"; path = "GTCategories/Foundation/NSSet/NSSet+GTBlocks.m"; sourceTree = "<group>"; };
 		105AC088E6F92337A9290E6E9BEAB8E4 /* UIControl+GTBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+GTBlock.m"; path = "GTCategories/UIKit/UIControl/UIControl+GTBlock.m"; sourceTree = "<group>"; };
 		11C7AF833F51386B561B7BD2D6950973 /* UIView+FrameLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FrameLayout.h"; path = "GTCategories/UIKit/UIView/UIView+FrameLayout.h"; sourceTree = "<group>"; };
@@ -446,7 +467,7 @@
 		691F9D14EE9A60580DB2169C31E059E6 /* NSDictionary+GTSafeAccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+GTSafeAccess.h"; path = "GTCategories/Foundation/NSDictionary/NSDictionary+GTSafeAccess.h"; sourceTree = "<group>"; };
 		6962DA2A515935E7E59EC0AEA5F77A95 /* NSString+GTBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+GTBase64.h"; path = "GTCategories/Foundation/NSString/NSString+GTBase64.h"; sourceTree = "<group>"; };
 		69833FA6098E7D8ADBB78AD31F1A86E8 /* NSData+GTPCM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+GTPCM.m"; path = "GTCategories/Foundation/NSData/NSData+GTPCM.m"; sourceTree = "<group>"; };
-		6AAB6BC314DD8DA167CB53FFF8855D5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6AAB6BC314DD8DA167CB53FFF8855D5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6B17D65BF89C025834039E9851DCD64F /* NSString+GTRemoveEmoji.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+GTRemoveEmoji.h"; path = "GTCategories/Foundation/NSString/NSString+GTRemoveEmoji.h"; sourceTree = "<group>"; };
 		6B2FB70F6C878B88E3E296E29F5D94CA /* NSObject+GTIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+GTIP.m"; path = "GTCategories/Foundation/NSObject/NSObject+GTIP.m"; sourceTree = "<group>"; };
 		6BB62A678764AB7D0D18850F0B4830D6 /* UIViewController+GTRecursiveDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+GTRecursiveDescription.h"; path = "GTCategories/UIKit/UIViewController/UIViewController+GTRecursiveDescription.h"; sourceTree = "<group>"; };
@@ -489,9 +510,9 @@
 		8FF294E8672FBD8CF446E4CF3AD8CFDC /* NSFileManager+GTPaths.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+GTPaths.m"; path = "GTCategories/Foundation/NSFileManager/NSFileManager+GTPaths.m"; sourceTree = "<group>"; };
 		908964D8CEBE776E23F8FCA34E432645 /* NSBundle+GTAppIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+GTAppIcon.m"; path = "GTCategories/Foundation/NSBundle/NSBundle+GTAppIcon.m"; sourceTree = "<group>"; };
 		90FC454F60EA70A55E7F7F35DD701593 /* NSObject+GTAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+GTAlert.h"; path = "GTCategories/Foundation/NSObject/NSObject+GTAlert.h"; sourceTree = "<group>"; };
-		930B2BC220C482596A35095580FEA3E8 /* GTCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTCategories.framework; path = GTCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		930B2BC220C482596A35095580FEA3E8 /* GTCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9348D6566E68CF5272FCAE6D9A514585 /* UIImage+GTCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GTCapture.h"; path = "GTCategories/UIKit/UIImage/UIImage+GTCapture.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94F4BCB08EB72CA8836A3707D0F2FE3E /* UIDevice+GTHardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+GTHardware.m"; path = "GTCategories/UIKit/UIDevice/UIDevice+GTHardware.m"; sourceTree = "<group>"; };
 		9629B28B54BDD38DC2792F200C77B18B /* NSDecimalNumber+GTCalculatingByString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+GTCalculatingByString.m"; path = "GTCategories/Foundation/NSNumber/NSDecimalNumber+GTCalculatingByString.m"; sourceTree = "<group>"; };
 		96BF9A8BE3DA1BC3221EB5FB9CB06473 /* NSInvocation+GTBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+GTBlocks.h"; path = "GTCategories/Foundation/NSInvocation/NSInvocation+GTBlocks.h"; sourceTree = "<group>"; };
@@ -587,7 +608,7 @@
 		DB35B57A01081A471C72B7F9850EC73A /* NSNotificationCenter+GTMainThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+GTMainThread.h"; path = "GTCategories/Foundation/NSNotificationCenter/NSNotificationCenter+GTMainThread.h"; sourceTree = "<group>"; };
 		DB8DA2AB8BD9BBF5787192DF88CDAA17 /* NSData+GTGzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+GTGzip.h"; path = "GTCategories/Foundation/NSData/NSData+GTGzip.h"; sourceTree = "<group>"; };
 		DC8AC888D286B47C69E05BE3E1233B79 /* NSURL+GTParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+GTParam.h"; path = "GTCategories/Foundation/NSURL/NSURL+GTParam.h"; sourceTree = "<group>"; };
-		DE4C50BFBBB063AAE6ACFE9ED4733BBE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DE4C50BFBBB063AAE6ACFE9ED4733BBE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E139A13CC7356FE937578669260604B1 /* UIImage+GTBlur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GTBlur.h"; path = "GTCategories/UIKit/UIImage/UIImage+GTBlur.h"; sourceTree = "<group>"; };
 		E18730381A5E42552D2F2D4841F8CB35 /* UIView+GTFind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+GTFind.h"; path = "GTCategories/UIKit/UIView/UIView+GTFind.h"; sourceTree = "<group>"; };
 		E1D712C47B994734017A2E223C54B7FA /* UIResponder+GTFirstResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+GTFirstResponder.h"; path = "GTCategories/UIKit/UIResponder/UIResponder+GTFirstResponder.h"; sourceTree = "<group>"; };
@@ -628,7 +649,7 @@
 		FBCF9B75CE76F988F580EBA30066F997 /* NSDictionary+GTJSONString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+GTJSONString.m"; path = "GTCategories/Foundation/NSDictionary/NSDictionary+GTJSONString.m"; sourceTree = "<group>"; };
 		FD8D3A0F555CE8AE558B64B988E49EF3 /* UIControl+GTActionBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+GTActionBlocks.h"; path = "GTCategories/UIKit/UIControl/UIControl+GTActionBlocks.h"; sourceTree = "<group>"; };
 		FD9D68942417EA331997C307554F7444 /* NSDictionary+GTXML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+GTXML.m"; path = "GTCategories/Foundation/NSDictionary/NSDictionary+GTXML.m"; sourceTree = "<group>"; };
-		FE0D7693E670F5D7E8F2865D4E0931F8 /* Pods_GTCategories_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTCategories_Example.framework; path = "Pods-GTCategories_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0D7693E670F5D7E8F2865D4E0931F8 /* Pods_GTCategories_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTCategories_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2211F5C67F29E7721F2F2916AEFF0D /* Pods-GTCategories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTCategories_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FEE68436683F59D554FD06B4A095A5C8 /* NSDate+GTCupertinoYankee.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+GTCupertinoYankee.m"; path = "GTCategories/Foundation/NSDate/NSDate+GTCupertinoYankee.m"; sourceTree = "<group>"; };
 		FFBEE7703823181E4C46C87F770D2DAF /* NSDate+GTLunarCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+GTLunarCalendar.m"; path = "GTCategories/Foundation/NSDate/NSDate+GTLunarCalendar.m"; sourceTree = "<group>"; };
@@ -814,7 +835,6 @@
 				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -1347,6 +1367,17 @@
 			isa = PBXGroup;
 			children = (
 				6C8CD7C447BEB86DF6055DB3D8243F38 /* GTCategories.h */,
+				04465B43219ED7D800177073 /* GTQuartzCoreHeader.h */,
+				04465B44219ED88000177073 /* CATransaction+GTAnimateWithDuration.h */,
+				04465B45219ED88000177073 /* CATransaction+GTAnimateWithDuration.m */,
+				04465B48219ED8F600177073 /* CAShapeLayer+GTUIBezierPath.h */,
+				04465B49219ED8F600177073 /* CAShapeLayer+GTUIBezierPath.m */,
+				04465B4C219ED95700177073 /* CAAnimation+GTEasingEquations.h */,
+				04465B4D219ED95700177073 /* CAAnimation+GTEasingEquations.m */,
+				04465B50219ED9D100177073 /* CAMediaTimingFunction+GTAdditionalEquations.h */,
+				04465B51219ED9D100177073 /* CAMediaTimingFunction+GTAdditionalEquations.m */,
+				04465B54219EDA4700177073 /* CALayer+GTBorderColor.h */,
+				04465B55219EDA4700177073 /* CALayer+GTBorderColor.m */,
 				A6695F95DA5970C8450C57387AB48436 /* Foundation */,
 				52E76A855B31D31585E84ACC98A21F87 /* Pod */,
 				03382CA6F2432F1D573B50FAA2F4AA70 /* Support Files */,
@@ -1425,12 +1456,17 @@
 			files = (
 				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
 				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
+				04465B56219EDA4700177073 /* CALayer+GTBorderColor.h in Headers */,
+				04465B4E219ED95700177073 /* CAAnimation+GTEasingEquations.h in Headers */,
 				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
 				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
+				04465B52219ED9D100177073 /* CAMediaTimingFunction+GTAdditionalEquations.h in Headers */,
 				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
 				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
 				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
+				04465B46219ED88000177073 /* CATransaction+GTAnimateWithDuration.h in Headers */,
 				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
+				04465B4A219ED8F600177073 /* CAShapeLayer+GTUIBezierPath.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1837,11 +1873,16 @@
 			files = (
 				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
 				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
+				04465B57219EDA4700177073 /* CALayer+GTBorderColor.m in Sources */,
 				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
 				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
+				04465B4F219ED95700177073 /* CAAnimation+GTEasingEquations.m in Sources */,
+				04465B4B219ED8F600177073 /* CAShapeLayer+GTUIBezierPath.m in Sources */,
 				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
+				04465B47219ED88000177073 /* CATransaction+GTAnimateWithDuration.m in Sources */,
 				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
 				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
+				04465B53219ED9D100177073 /* CAMediaTimingFunction+GTAdditionalEquations.m in Sources */,
 				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
 				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
 			);
