@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GTCategories'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'GTCategories 是一个通用Category拓展'
   s.homepage         = 'https://github.com/liuxc123/GTCategories'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
 
   #Foundation
   s.subspec 'Foundation' do |foundation|
-#      foundation.source_files = 'GTCategories/Foundation/**/*.{h,m}'
 #      foundation.source_files = 'GTCategories/Foundation/**/*.{h,m}'
     foundation.public_header_files = 'GTCategories/Foundation/GTFoundationHeader.h'
     foundation.source_files = 'GTCategories/Foundation/GTFoundationHeader.h'
