@@ -6,6 +6,7 @@ PODS:
     - FBSnapshotTestCase/Core
   - GTCategories (0.1.0):
     - GTCategories/Foundation (= 0.1.0)
+    - GTCategories/QuartzCore (= 0.1.0)
     - GTCategories/UIKit (= 0.1.0)
   - GTCategories/Foundation (0.1.0):
     - GTCategories/Foundation/NSArray (= 0.1.0)
@@ -49,6 +50,17 @@ PODS:
   - GTCategories/Foundation/NSURL (0.1.0)
   - GTCategories/Foundation/NSURLConnection (0.1.0)
   - GTCategories/Foundation/NSUserDefaults (0.1.0)
+  - GTCategories/QuartzCore (0.1.0):
+    - GTCategories/QuartzCore/CAAnimation (= 0.1.0)
+    - GTCategories/QuartzCore/CALayer (= 0.1.0)
+    - GTCategories/QuartzCore/CAMediaTimingFunction (= 0.1.0)
+    - GTCategories/QuartzCore/CAShapeLayer (= 0.1.0)
+    - GTCategories/QuartzCore/CATransaction (= 0.1.0)
+  - GTCategories/QuartzCore/CAAnimation (0.1.0)
+  - GTCategories/QuartzCore/CALayer (0.1.0)
+  - GTCategories/QuartzCore/CAMediaTimingFunction (0.1.0)
+  - GTCategories/QuartzCore/CAShapeLayer (0.1.0)
+  - GTCategories/QuartzCore/CATransaction (0.1.0)
   - GTCategories/UIKit (0.1.0):
     - GTCategories/UIKit/UIApplication (= 0.1.0)
     - GTCategories/UIKit/UIColor (= 0.1.0)
@@ -95,7 +107,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GTCategories: 76dfb99f90fc4e62b71aa6954e2483def8c23529
+  GTCategories: 2acc1e47902209257beec820d6c37dd683379e1f
 
 PODFILE CHECKSUM: 26b0f34c05a1e887c520597025c480cd446b8d44
 

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GTCategories'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GTCategories.'
+  s.summary          = 'GTCategories 是一个通用Category拓展'
   s.homepage         = 'https://github.com/liuxc123/GTCategories'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liuxc123' => 'lxc_work@126.com' }
@@ -139,6 +139,29 @@ Pod::Spec.new do |s|
     uikit.subspec 'UIWindow' do |window|
         window.source_files = 'GTCategories/UIKit/UIWindow/*.{h,m}'
     end
-end
+  end
 
+  #QuartzCore
+  s.subspec 'QuartzCore' do |quartzcore|
+    # quartzcore.source_files = 'GTCategories/QuartzCore/**/*.{h,m}'
+    quartzcore.public_header_files = 'GTCategories/QuartzCore/GTQuartzCoreHeader.h'
+    quartzcore.source_files = 'GTCategories/QuartzCore/JKQuartzCore.h'
+    quartzcore.frameworks = 'QuartzCore','UIKit'
+
+    quartzcore.subspec 'CAAnimation' do |animation|
+        animation.source_files = 'GTCategories/QuartzCore/CAAnimation/*.{h,m}'
+    end
+    quartzcore.subspec 'CALayer' do |layer|
+        layer.source_files = 'GTCategories/QuartzCore/CALayer/*.{h,m}'
+    end
+    quartzcore.subspec 'CAMediaTimingFunction' do |mediatimingfunction|
+        mediatimingfunction.source_files = 'GTCategories/QuartzCore/CAMediaTimingFunction/*.{h,m}'
+    end
+    quartzcore.subspec 'CAShapeLayer' do |shapelayer|
+        shapelayer.source_files = 'GTCategories/QuartzCore/CAShapeLayer/*.{h,m}'
+    end
+    quartzcore.subspec 'CATransaction' do |transaction|
+        transaction.source_files = 'GTCategories/QuartzCore/CATransaction/*.{h,m}'
+    end
+  end
 end

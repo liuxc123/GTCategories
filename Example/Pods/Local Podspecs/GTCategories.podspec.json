@@ -1,7 +1,7 @@
 {
   "name": "GTCategories",
   "version": "0.1.0",
-  "summary": "A short description of GTCategories.",
+  "summary": "GTCategories 是一个通用Category拓展",
   "homepage": "https://github.com/liuxc123/GTCategories",
   "license": {
     "type": "MIT",
@@ -181,6 +181,37 @@
         {
           "name": "UIWindow",
           "source_files": "GTCategories/UIKit/UIWindow/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "QuartzCore",
+      "public_header_files": "GTCategories/QuartzCore/GTQuartzCoreHeader.h",
+      "source_files": "GTCategories/QuartzCore/JKQuartzCore.h",
+      "frameworks": [
+        "QuartzCore",
+        "UIKit"
+      ],
+      "subspecs": [
+        {
+          "name": "CAAnimation",
+          "source_files": "GTCategories/QuartzCore/CAAnimation/*.{h,m}"
+        },
+        {
+          "name": "CALayer",
+          "source_files": "GTCategories/QuartzCore/CALayer/*.{h,m}"
+        },
+        {
+          "name": "CAMediaTimingFunction",
+          "source_files": "GTCategories/QuartzCore/CAMediaTimingFunction/*.{h,m}"
+        },
+        {
+          "name": "CAShapeLayer",
+          "source_files": "GTCategories/QuartzCore/CAShapeLayer/*.{h,m}"
+        },
+        {
+          "name": "CATransaction",
+          "source_files": "GTCategories/QuartzCore/CATransaction/*.{h,m}"
         }
       ]
     }
