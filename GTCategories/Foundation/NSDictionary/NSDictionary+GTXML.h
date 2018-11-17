@@ -1,6 +1,6 @@
 //
 //  NSDictionary+GTXML.h
-//  FBSnapshotTestCase
+//  GTCategories
 //
 //  Created by liuxc on 2018/11/16.
 //  https://github.com/shaojiankui/NSDictionary-JKXML

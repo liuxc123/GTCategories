@@ -5,7 +5,6 @@ target 'GTCategories_Example' do
 
   target 'GTCategories_Tests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
+    pod 'GTCategories', :path => '../'
   end
 end

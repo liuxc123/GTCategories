@@ -1,6 +1,6 @@
 //
 //  CAMediaTimingFunction+GTAdditionalEquations.m
-//  FBSnapshotTestCase
+//  GTCategories
 //
 //  Created by liuxc on 2018/11/16.
 //

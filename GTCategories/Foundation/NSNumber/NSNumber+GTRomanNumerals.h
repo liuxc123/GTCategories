@@ -1,6 +1,6 @@
 //
 //  NSNumber+GTRomanNumerals.h
-//  FBSnapshotTestCase
+//  GTCategories
 //
 //  Created by liuxc on 2018/11/16.
 //
