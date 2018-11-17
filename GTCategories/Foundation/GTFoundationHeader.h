@@ -35,7 +35,7 @@
 #import <GTCategories/NSException+GTTrace.h>
 #import <GTCategories/NSFileManager+GTPaths.h>
 #import <GTCategories/NSIndexPath+GTOffset.h>
-#import <GTCategories/NSInvocation+GTBlock.h>
+#import <GTCategories/NSInvocation+GTBlocks.h>
 #import <GTCategories/NSNotificationCenter+GTMainThread.h>
 #import <GTCategories/NSDecimalNumber+GTCalculatingByString.h>
 #import <GTCategories/NSDecimalNumber+GTExtensions.h>
@@ -58,7 +58,7 @@
 #import <GTCategories/NSObject+GTReflection.h>
 #import <GTCategories/NSObject+GTRuntime.h>
 #import <GTCategories/NSRunLoop+GTPerformBlock.h>
-#import <GTCategories/NSSet+GTBlock.h>
+#import <GTCategories/NSSet+GTBlocks.h>
 #import <GTCategories/NSString+GTBase64.h>
 #import <GTCategories/NSString+GTContains.h>
 #import <GTCategories/NSString+GTDictionaryValue.h>
@@ -114,7 +114,7 @@
 #import "NSException+GTTrace.h"
 #import "NSFileManager+GTPaths.h"
 #import "NSIndexPath+GTOffset.h"
-#import "NSInvocation+GTBlock.h"
+#import "NSInvocation+GTBlocks.h"
 #import "NSNotificationCenter+GTMainThread.h"
 #import "NSDecimalNumber+GTAddition.h"
 #import "NSDecimalNumber+GTCalculatingByString.h"
@@ -137,7 +137,7 @@
 #import "NSObject+GTReflection.h"
 #import "NSObject+GTRuntime.h"
 #import "NSRunLoop+GTPerformBlock.h"
-#import "NSSet+GTBlock.h"
+#import "NSSet+GTBlocks.h"
 #import "NSString+GTBase64.h"
 #import "NSString+GTContains.h"
 #import "NSString+GTDictionaryValue.h"

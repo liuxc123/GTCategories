@@ -77,9 +77,6 @@ Pod::Spec.new do |s|
     foundation.subspec 'NSURL' do |url|
         url.source_files = 'GTCategories/Foundation/NSURL/*.{h,m}'
     end
-    foundation.subspec 'NSURLConnection' do |connection|
-        connection.source_files = 'GTCategories/Foundation/NSURLConnection/*.{h,m}'
-    end
     foundation.subspec 'NSUserDefaults' do |userdefaults|
         userdefaults.source_files = 'GTCategories/Foundation/NSUserDefaults/*.{h,m}'
     end
@@ -145,7 +142,7 @@ Pod::Spec.new do |s|
   s.subspec 'QuartzCore' do |quartzcore|
     # quartzcore.source_files = 'GTCategories/QuartzCore/**/*.{h,m}'
     quartzcore.public_header_files = 'GTCategories/QuartzCore/GTQuartzCoreHeader.h'
-    quartzcore.source_files = 'GTCategories/QuartzCore/JKQuartzCore.h'
+    quartzcore.source_files = 'GTCategories/QuartzCore/GTQuartzCoreHeader.h'
     quartzcore.frameworks = 'QuartzCore','UIKit'
 
     quartzcore.subspec 'CAAnimation' do |animation|
