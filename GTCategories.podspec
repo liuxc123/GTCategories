@@ -10,17 +10,14 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'GTCategories/GTCategories.h'
   s.source_files = 'GTCategories/GTCategories.h'
-#  s.source_files = 'GTCategories/**/*'
 
 
   #Foundation
   s.subspec 'Foundation' do |foundation|
-#      foundation.source_files = 'GTCategories/Foundation/**/*.{h,m}'
     foundation.public_header_files = 'GTCategories/Foundation/GTFoundationHeader.h'
     foundation.source_files = 'GTCategories/Foundation/GTFoundationHeader.h'
     foundation.frameworks = 'Foundation','Security'
     #三级
-
     foundation.subspec 'NSArray' do |array|
         array.source_files = 'GTCategories/Foundation/NSArray/*.{h,m}'
     end
@@ -83,7 +80,6 @@ Pod::Spec.new do |s|
 
   #UIKit
   s.subspec 'UIKit' do |uikit|
-    # uikit.source_files = 'GTCategories/UIKit/**/*.{h,m}'
     uikit.public_header_files = 'GTCategories/UIKit/GTUIKitHeader.h'
     uikit.source_files = 'GTCategories/UIKit/GTUIKitHeader.h'
     uikit.frameworks = 'UIKit'

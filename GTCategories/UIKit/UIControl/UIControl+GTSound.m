@@ -16,7 +16,7 @@ static char const * const gt_kSoundsKey = "gt_kSoundsKey";
 - (void)gt_setSoundNamed:(NSString *)name forControlEvent:(UIControlEvents)controlEvent
 {
     // Remove the old UI sound.
-    NSString *oldSoundKey = [NSString stringWithFormat:@"%zd", controlEvent];
+    NSString *oldSoundKey = [NSString stringWithFormat:@"%zd", (unsigned long)controlEvent];
     AVAudioPlayer *oldSound = [self gt_sounds][oldSoundKey];
     [self removeTarget:oldSound action:@selector(play) forControlEvents:controlEvent];
 
@@ -33,7 +33,7 @@ static char const * const gt_kSoundsKey = "gt_kSoundsKey";
 
     // Create and prepare the sound.
     AVAudioPlayer *tapSound = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFileURL error:&error];
-    NSString *controlEventKey = [NSString stringWithFormat:@"%zd", controlEvent];
+    NSString *controlEventKey = [NSString stringWithFormat:@"%zd", (unsigned long)controlEvent];
     NSMutableDictionary *sounds = [self gt_sounds];
     [sounds setObject:tapSound forKey:controlEventKey];
     [tapSound prepareToPlay];

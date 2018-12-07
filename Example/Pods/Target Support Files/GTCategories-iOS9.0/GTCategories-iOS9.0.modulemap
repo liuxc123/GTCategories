@@ -1,5 +1,5 @@
 framework module GTCategories {
-  umbrella header "GTCategories-umbrella.h"
+  umbrella header "GTCategories-iOS9.0-umbrella.h"
 
   export *
   module * { export * }

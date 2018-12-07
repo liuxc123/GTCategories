@@ -12,7 +12,6 @@
 #import <GTCategories/NSData+GTAPNSToken.h>
 #import <GTCategories/NSData+GTBase64.h>
 #import <GTCategories/NSData+GTDataCache.h>
-#import <GTCategories/NSData+GTEncrypt.h>
 #import <GTCategories/NSData+GTGzip.h>
 #import <GTCategories/NSData+GTHash.h>
 #import <GTCategories/NSData+GTzlib.h>
@@ -63,7 +62,6 @@
 #import <GTCategories/NSString+GTContains.h>
 #import <GTCategories/NSString+GTDictionaryValue.h>
 #import <GTCategories/NSString+GTEmoji.h>
-#import <GTCategories/NSString+GTEncrypt.h>
 #import <GTCategories/NSString+GTHash.h>
 #import <GTCategories/NSString+GTHTML.h>
 #import <GTCategories/NSString+GTMatcher.h>
@@ -91,7 +89,6 @@
 #import "NSData+GTAPNSToken.h"
 #import "NSData+GTBase64.h"
 #import "NSData+GTDataCache.h"
-#import "NSData+GTEncrypt.h"
 #import "NSData+GTGzip.h"
 #import "NSData+GTHash.h"
 #import "NSData+GTzlib.h"
@@ -142,7 +139,6 @@
 #import "NSString+GTContains.h"
 #import "NSString+GTDictionaryValue.h"
 #import "NSString+GTEmoji.h"
-#import "NSString+GTEncrypt.h"
 #import "NSString+GTHash.h"
 #import "NSString+GTHTML.h"
 #import "NSString+GTMatcher.h"

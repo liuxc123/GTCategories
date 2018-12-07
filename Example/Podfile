@@ -3,8 +3,23 @@ use_frameworks!
 target 'GTCategories_Example' do
   pod 'GTCategories', :path => '../'
 
-  target 'GTCategories_Tests' do
+end
+
+target 'GTCategoriesSwift' do
+    pod 'GTCategories', :path => '../'
+
+end
+
+target 'GTCategories_Tests' do
     inherit! :search_paths
     pod 'GTCategories', :path => '../'
-  end
+end
+
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            target.build_settings(config.name)['CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES'] = 'YES'
+        end
+    end
 end

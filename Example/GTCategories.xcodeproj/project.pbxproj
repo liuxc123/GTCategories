@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0403A68B21BA4AA50000C5EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403A68A21BA4AA50000C5EC /* AppDelegate.swift */; };
+		0403A68D21BA4AA50000C5EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403A68C21BA4AA50000C5EC /* ViewController.swift */; };
+		0403A69021BA4AA50000C5EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0403A68E21BA4AA50000C5EC /* Main.storyboard */; };
+		0403A69221BA4AA60000C5EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0403A69121BA4AA60000C5EC /* Assets.xcassets */; };
+		0403A69521BA4AA60000C5EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0403A69321BA4AA60000C5EC /* LaunchScreen.storyboard */; };
+		0403A6A021BA4B7B0000C5EC /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403A69F21BA4B7B0000C5EC /* GTViewController.m */; };
+		488C0FDC03F61833C148A004 /* Pods_GTCategoriesSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B05DA8FDD211FD7E50B43EC /* Pods_GTCategoriesSwift.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,6 +46,16 @@
 
 /* Begin PBXFileReference section */
 		038B0064DE64BEA766150226 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0403A68821BA4AA50000C5EC /* GTCategoriesSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTCategoriesSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0403A68A21BA4AA50000C5EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0403A68C21BA4AA50000C5EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0403A68F21BA4AA50000C5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0403A69121BA4AA60000C5EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0403A69421BA4AA60000C5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0403A69621BA4AA60000C5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0403A69A21BA4AB50000C5EC /* GTCategoriesSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTCategoriesSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		0403A69E21BA4B7B0000C5EC /* GTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTViewController.h; sourceTree = "<group>"; };
+		0403A69F21BA4B7B0000C5EC /* GTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
 		0FE17DBD75E5C5D7EC674985 /* Pods-GTCategories_Example-GTCategories_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTCategories_Example-GTCategories_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTCategories_Example-GTCategories_Tests/Pods-GTCategories_Example-GTCategories_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		17B4F184A5DF87ECE3B6DF96 /* Pods-GTCategories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTCategories_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTCategories_Example/Pods-GTCategories_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2661481FF2BDBC4784B58FFE /* Pods-GTCategories_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTCategories_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTCategories_Example/Pods-GTCategories_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,18 +79,29 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		67BFB771156A89EDB018B8F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6B05DA8FDD211FD7E50B43EC /* Pods_GTCategoriesSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTCategoriesSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		872E4B5F39EEA33C0999A909 /* Pods-GTCategories_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTCategories_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTCategories_Tests/Pods-GTCategories_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		893B864546A62FE7F5A79E73 /* Pods-GTCategories_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTCategories_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTCategories_Tests/Pods-GTCategories_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C825029D1DFAF7FCA9F0637 /* Pods_GTCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTCategories_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18DC6513E8A841132D503B1 /* Pods-GTCategoriesSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTCategoriesSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTCategoriesSwift/Pods-GTCategoriesSwift.release.xcconfig"; sourceTree = "<group>"; };
+		A733ECE84465A2E13F866152 /* Pods-GTCategoriesSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTCategoriesSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTCategoriesSwift/Pods-GTCategoriesSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		C2DEF27554087059A6B8DE38 /* Pods_GTCategories_Example_GTCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTCategories_Example_GTCategories_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBA5891A50428EDD4D9A5632 /* GTCategories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GTCategories.podspec; path = ../GTCategories.podspec; sourceTree = "<group>"; };
+		CBA5891A50428EDD4D9A5632 /* GTCategories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GTCategories.podspec; path = ../GTCategories.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CC97450D720D8D42F0F6A4A0 /* Pods_GTCategories_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTCategories_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FCD0082A9084161D6F00BF /* Pods-GTCategories_Example-GTCategories_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTCategories_Example-GTCategories_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTCategories_Example-GTCategories_Tests/Pods-GTCategories_Example-GTCategories_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0403A68521BA4AA50000C5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488C0FDC03F61833C148A004 /* Pods_GTCategoriesSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -100,6 +128,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0403A68921BA4AA50000C5EC /* GTCategoriesSwift */ = {
+			isa = PBXGroup;
+			children = (
+				0403A68A21BA4AA50000C5EC /* AppDelegate.swift */,
+				0403A68C21BA4AA50000C5EC /* ViewController.swift */,
+				0403A69E21BA4B7B0000C5EC /* GTViewController.h */,
+				0403A69F21BA4B7B0000C5EC /* GTViewController.m */,
+				0403A68E21BA4AA50000C5EC /* Main.storyboard */,
+				0403A69121BA4AA60000C5EC /* Assets.xcassets */,
+				0403A69321BA4AA60000C5EC /* LaunchScreen.storyboard */,
+				0403A69621BA4AA60000C5EC /* Info.plist */,
+				0403A69A21BA4AB50000C5EC /* GTCategoriesSwift-Bridging-Header.h */,
+			);
+			path = GTCategoriesSwift;
+			sourceTree = "<group>";
+		};
 		5B1A74046EC71F4ACC55048A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +153,8 @@
 				D4FCD0082A9084161D6F00BF /* Pods-GTCategories_Example-GTCategories_Tests.release.xcconfig */,
 				893B864546A62FE7F5A79E73 /* Pods-GTCategories_Tests.debug.xcconfig */,
 				872E4B5F39EEA33C0999A909 /* Pods-GTCategories_Tests.release.xcconfig */,
+				A733ECE84465A2E13F866152 /* Pods-GTCategoriesSwift.debug.xcconfig */,
+				A18DC6513E8A841132D503B1 /* Pods-GTCategoriesSwift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -119,6 +165,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for GTCategories */,
 				6003F5B5195388D20070C39A /* Tests */,
+				0403A68921BA4AA50000C5EC /* GTCategoriesSwift */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				5B1A74046EC71F4ACC55048A /* Pods */,
@@ -130,6 +177,7 @@
 			children = (
 				6003F58A195388D20070C39A /* GTCategories_Example.app */,
 				6003F5AE195388D20070C39A /* GTCategories_Tests.xctest */,
+				0403A68821BA4AA50000C5EC /* GTCategoriesSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +192,7 @@
 				CC97450D720D8D42F0F6A4A0 /* Pods_GTCategories_Example.framework */,
 				8C825029D1DFAF7FCA9F0637 /* Pods_GTCategories_Tests.framework */,
 				C2DEF27554087059A6B8DE38 /* Pods_GTCategories_Example_GTCategories_Tests.framework */,
+				6B05DA8FDD211FD7E50B43EC /* Pods_GTCategoriesSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,6 +256,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0403A68721BA4AA50000C5EC /* GTCategoriesSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0403A69921BA4AA60000C5EC /* Build configuration list for PBXNativeTarget "GTCategoriesSwift" */;
+			buildPhases = (
+				7A17D06F4544D478CBC8E70F /* [CP] Check Pods Manifest.lock */,
+				0403A68421BA4AA50000C5EC /* Sources */,
+				0403A68521BA4AA50000C5EC /* Frameworks */,
+				0403A68621BA4AA50000C5EC /* Resources */,
+				78D2E4F32F42844F260D3C5A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTCategoriesSwift;
+			productName = GTCategoriesSwift;
+			productReference = 0403A68821BA4AA50000C5EC /* GTCategoriesSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6003F589195388D20070C39A /* GTCategories_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "GTCategories_Example" */;
@@ -253,9 +321,19 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = GT;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = liuxc123;
 				TargetAttributes = {
+					0403A68721BA4AA50000C5EC = {
+						CreatedOnToolsVersion = 9.3.1;
+						DevelopmentTeam = E4RZEW9957;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+					};
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -276,11 +354,22 @@
 			targets = (
 				6003F589195388D20070C39A /* GTCategories_Example */,
 				6003F5AD195388D20070C39A /* GTCategories_Tests */,
+				0403A68721BA4AA50000C5EC /* GTCategoriesSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0403A68621BA4AA50000C5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0403A69521BA4AA60000C5EC /* LaunchScreen.storyboard in Resources */,
+				0403A69221BA4AA60000C5EC /* Assets.xcassets in Resources */,
+				0403A69021BA4AA50000C5EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,7 +417,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GTCategories_Example/Pods-GTCategories_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTCategories/GTCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/GTCategories-iOS8.0/GTCategories.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -337,6 +426,42 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTCategories_Example/Pods-GTCategories_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78D2E4F32F42844F260D3C5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GTCategoriesSwift/Pods-GTCategoriesSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTCategories-iOS9.0/GTCategories.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTCategories.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTCategoriesSwift/Pods-GTCategoriesSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A17D06F4544D478CBC8E70F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GTCategoriesSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8DC46FC29485AB4CD89019D1 /* [CP] Check Pods Manifest.lock */ = {
@@ -364,7 +489,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GTCategories_Tests/Pods-GTCategories_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTCategories/GTCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/GTCategories-iOS9.3/GTCategories.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -378,6 +503,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0403A68421BA4AA50000C5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0403A68D21BA4AA50000C5EC /* ViewController.swift in Sources */,
+				0403A6A021BA4B7B0000C5EC /* GTViewController.m in Sources */,
+				0403A68B21BA4AA50000C5EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,6 +542,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0403A68E21BA4AA50000C5EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0403A68F21BA4AA50000C5EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0403A69321BA4AA60000C5EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0403A69421BA4AA60000C5EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,6 +585,70 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0403A69721BA4AA60000C5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A733ECE84465A2E13F866152 /* Pods-GTCategoriesSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = E4RZEW9957;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GTCategoriesSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxc.GTCategoriesSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "GTCategoriesSwift/GTCategoriesSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0403A69821BA4AA60000C5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18DC6513E8A841132D503B1 /* Pods-GTCategoriesSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = E4RZEW9957;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GTCategoriesSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuxc.GTCategoriesSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GTCategoriesSwift/GTCategoriesSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -538,12 +753,16 @@
 			baseConfigurationReference = 2661481FF2BDBC4784B58FFE /* Pods-GTCategories_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GTCategories/GTCategories-Prefix.pch";
 				INFOPLIST_FILE = "GTCategories/GTCategories-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -553,12 +772,16 @@
 			baseConfigurationReference = 17B4F184A5DF87ECE3B6DF96 /* Pods-GTCategories_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GTCategories/GTCategories-Prefix.pch";
 				INFOPLIST_FILE = "GTCategories/GTCategories-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -612,6 +835,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0403A69921BA4AA60000C5EC /* Build configuration list for PBXNativeTarget "GTCategoriesSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0403A69721BA4AA60000C5EC /* Debug */,
+				0403A69821BA4AA60000C5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "GTCategories" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -6,6 +6,7 @@
 //
 
 #import "NSData+GTDataCache.h"
+#import <CommonCrypto/CommonDigest.h>
 
 @implementation NSData (GTDataCache)
 
@@ -13,7 +14,7 @@
 {
     NSString *path = [NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) lastObject];
     path = [path stringByAppendingPathComponent:@"Caches"];
-    path = [path stringByAppendingPathComponent:@"JKDataCache"];
+    path = [path stringByAppendingPathComponent:@"GTDataCache"];
     if (![[NSFileManager defaultManager] fileExistsAtPath:path]) {
         [[NSFileManager defaultManager] createDirectoryAtPath:path withIntermediateDirectories:YES attributes:nil error:nil];
     }

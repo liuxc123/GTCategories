@@ -137,7 +137,7 @@
 }
 
 + (NSString *)gt_formatYMD:(NSDate *)date {
-    return [NSString stringWithFormat:@"%zd-%zd-%zd",[date gt_year],[date gt_month], [date gt_day]];
+    return [NSString stringWithFormat:@"%zd-%zd-%zd",(long)[date gt_year],(long)[date gt_month], (long)[date gt_day]];
 }
 
 - (NSUInteger)gt_weeksOfMonth {

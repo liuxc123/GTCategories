@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CommonCrypto/CommonDigest.h>
 
 #define kSDMaxCacheFileAmount 100
 

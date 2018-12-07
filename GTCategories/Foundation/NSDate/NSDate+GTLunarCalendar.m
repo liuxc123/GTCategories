@@ -46,7 +46,7 @@
     unsigned unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth |  NSCalendarUnitDay;
     NSDateComponents *localeComp = [chineseCalendar components:unitFlags fromDate:date];
 
-    NSLog(@"%zd_%zd_%zd",localeComp.year,localeComp.month,localeComp.day);
+    NSLog(@"%zd_%zd_%zd",(long)localeComp.year,(long)localeComp.month,(long)localeComp.day);
 
     NSString *y_str = [gt_ChineseYears objectAtIndex:localeComp.year-1];
     NSString *m_str = [gt_ChineseMonths objectAtIndex:localeComp.month-1];
