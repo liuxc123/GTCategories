@@ -1,6 +1,6 @@
 {
   "name": "GTCategories",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "GTCategories 是一个通用Category拓展",
   "homepage": "https://github.com/liuxc123/GTCategories",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/liuxc123/GTCategories.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GTCategories'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'GTCategories 是一个通用Category拓展'
   s.homepage         = 'https://github.com/liuxc123/GTCategories'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
